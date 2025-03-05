@@ -209,3 +209,4 @@
 /home/nuri/MVC/GununAyeti/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll
 /home/nuri/MVC/GununAyeti/obj/Debug/net9.0/GununAyeti.csproj.AssemblyReference.cache
 /home/nuri/MVC/GununAyeti/obj/Debug/net9.0/GununAyeti.csproj.Up2Date
+/home/nuri/MVC/GununAyeti/obj/Debug/net9.0/GununAyeti.sourcelink.json
