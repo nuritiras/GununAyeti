@@ -29,7 +29,8 @@ namespace GununAyeti.Controllers
         public IActionResult GununAyeti()
         {
             Random random = new Random(); // Random sınıfından bir nesne oluşturuyoruz.
-            int id  = random.Next(1, 4); // 1 ile 4 arasında rastgele bir sayı oluşturuyoruz.
+            int count = _context.Ayetler.Count(); // Ayetler tablosundaki kayıt sayısını alıyoruz.
+            int id  = random.Next(1, count); // 1 ile 4 arasında rastgele bir sayı oluşturuyoruz.
             Ayet ayet = _context.Ayetler.First(a => a.Id==id);  // Id'si rastgele oluşturulan sayıya eşit olan ayeti getiriyoruz.
             return View(ayet); // Ayet nesnesini döndürüyoruz.
         }
