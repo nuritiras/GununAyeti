@@ -6,8 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<RepositoryContext>(options =>
+// Veritabanı bağlantısını sağlamak için RepositoryContext sınıfını kullanıyoruz.
+builder.Services.AddDbContext<RepositoryContext>(options => 
 {
+    // Veritabanı bağlantısını sağlamak için SQLite veritabanını kullanıyoruz.
     options.UseSqlite(builder.Configuration.GetConnectionString("sqlConnection"));
 }); 
 

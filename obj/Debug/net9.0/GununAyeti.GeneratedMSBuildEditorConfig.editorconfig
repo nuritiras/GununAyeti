@@ -32,16 +32,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXlldC9HZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/nuri/MVC/GununAyeti/Views/Ayet/GununAyeti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXlldC9HdW51bkF5ZXRpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/nuri/MVC/GununAyeti/Views/Ayet/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXlldC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/nuri/MVC/GununAyeti/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/home/nuri/MVC/GununAyeti/Views/Ayet/Kayit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXlldC9LYXlpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/nuri/MVC/GununAyeti/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/home/nuri/MVC/GununAyeti/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/nuri/MVC/GununAyeti/Views/Shared/Error.cshtml]

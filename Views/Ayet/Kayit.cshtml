@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Ayet Kaydı";
+}
+
+@model Ayet 
+
+<h2>Ayet Kaydı</h2>
+
+<form asp-action="Kayit" method="post"> 
+    <div class="form-group my-2">
+        <label asp-for="ArapcaMetin" class="control-label">Arapça Metin:</label>
+        <textarea asp-for="ArapcaMetin" class="form-control"></textarea>
+        <span asp-validation-for="ArapcaMetin" class="text-danger"></span>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="Aciklama" class="control-label">Meali Şerifi:</label>
+        <textarea asp-for="Aciklama" class="form-control"></textarea>
+        <span asp-validation-for="Aciklama" class="text-danger"></span>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="SureIsmi" class="control-label">Sure İsmi:</label>
+        <input asp-for="SureIsmi" class="form-control" />
+        <span asp-validation-for="SureIsmi" class="text-danger"></span>
+    </div>   
+    <div class="form-group my-2">
+        <label asp-for="AyetNo" class="control-label">Ayet Numarası:</label>
+        <input asp-for="AyetNo" class="form-control" />
+        <span asp-validation-for="AyetNo" class="text-danger"></span>
+    </div> 
+    <div class="form-group my-2">
+        <input type="submit" value="Kaydet" class="btn btn-primary" />
+        <input type="reset" value="Temizle" class="btn btn-warning" />
+    </div>
+</form>
